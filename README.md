@@ -29,19 +29,12 @@
 
 ## ⚙️ কাস্টমাইজেশন
 
-### লোগো পরিবর্তন করুন
-`index.html` ফাইলে এই লাইনটি খুঁজুন এবং আপডেট করুন:
-```html
-<img src="https://i.ibb.co/your-logo-link.png" class="logo" alt="NANO KIDS">
-```
-আপনার লোগো URL দিয়ে `https://i.ibb.co/your-logo-link.png` বদলে দিন।
-
 ### ভিডিও লিঙ্ক পরিবর্তন করুন
 ```html
 https://drive.google.com/file/d/1grNQDi_RfgJKEYdJSojpIUh_C2hBfdFr/view?usp=drivesdk
 ```
 আপনার ভিডিও URL দিয়ে বদলে দিন।
-
+https://drive.google.com/file/d/1grNQDi_RfgJKEYdJSojpIUh_C2hBfdFr/view?usp=drivesdk
 ### নিউজ টিকার টেক্সট পরিবর্তন করুন
 ```html
 <marquee behavior="scroll" direction="left" scrollamount="8">
@@ -59,7 +52,7 @@ https://drive.google.com/file/d/1grNQDi_RfgJKEYdJSojpIUh_C2hBfdFr/view?usp=drive
 ```
 Nano-Kids-Tv-/
 ├── index.html          # মূল HTML ফাইল
-└── README.md           # এই ফাইল
+└── README.md           # এই [ফাইল](https://drive.google.com/file/d/1grNQDi_RfgJKEYdJSojpIUh_C2hBfdFr/view?usp=drivesdk)
 ```
 
 ## 🎨 রঙ স্কিম
