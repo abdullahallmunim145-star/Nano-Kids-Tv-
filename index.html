@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NANO KIDS - Bengali TV Player</title>
+<style>
+  body { margin: 0; background: #000; overflow: hidden; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  
+  /* ভিডিওর সাইজ */
+  #tv-player { width: 100vw; height: 100vh; background: #000; object-fit: cover; }
+
+  /* লোগো পজিশন */
+  .logo {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    width: 150px; /* লোগো বড় বা ছোট করতে এটি পরিবর্তন করো */
+    z-index: 10;
+    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.5));
+  }
+
+  /* নিচের নিউজ স্ক্রল */
+  .news-ticker {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #000, #333);
+    color: white;
+    padding: 12px 0;
+    font-size: 22px;
+    font-weight: bold;
+    border-top: 4px solid #ffcc00;
+    z-index: 100;
+  }
+
+  marquee { width: 100%; }
+</style>
+</head>
+<body>
+
+  <img src="https://i.ibb.co/your-logo-link.png" class="logo" alt="NANO KIDS">
+
+  <video id="tv-player" autoplay loop controls>
+    <source src="https://docs.google.com/uc?export=download&id=1grNQDi_RfgJKEYdJSojpIUh_C2hBfdFr" type="video/mp4">
+    আপনার ব্রাউজার ভিডিও সাপোর্ট করছে না।
+  </video>
+
+  <div class="news-ticker">
+    <marquee behavior="scroll" direction="left" scrollamount="8">
+      আপনি দেখছেন ন্যানো কিডস (NANO KIDS) ... ছোটদের রঙিন পৃথিবী ... আমাদের সাথেই থাকুন ... বিজ্ঞাপনের জন্য যোগাযোগ করুন ...
+    </marquee>
+  </div>
+
+</body>
+</html>
