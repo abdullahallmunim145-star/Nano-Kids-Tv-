@@ -41,6 +41,7 @@
 <source src="https://docs.google.com/uc?export=download&id=1grNQDi_RfgJKEYdJSojpIUh_C2hBfdFr" type="video/mp4">
 ```
 আপনার ভিডিও URL দিয়ে বদলে দিন।
+<source src="https://docs.google.com/uc?export=download&id=1grNQDi_RfgJKEYdJSojpIUh_C2hBfdFr" type="video/mp4">
 
 ### নিউজ টিকার টেক্সট পরিবর্তন করুন
 ```html
@@ -59,7 +60,8 @@
 ```
 Nano-Kids-Tv-/
 ├── index.html          # মূল HTML ফাইল
-└── README.md           # এই ফাইল
+└── README.md           # এই <source src="https://docs.google.com/uc?export=download&id=1grNQDi_RfgJKEYdJSojpIUh_C2hBfdFr" type="video/mp4">
+
 ```
 
 ## 🎨 রঙ স্কিম
