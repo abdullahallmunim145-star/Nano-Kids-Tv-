@@ -38,7 +38,7 @@
 
 ### ভিডিও লিঙ্ক পরিবর্তন করুন
 ```html
-<source src="https://docs.google.com/uc?export=download&id=1grNQDi_RfgJKEYdJSojpIUh_C2hBfdFr" type="video/mp4">
+https://drive.google.com/file/d/1grNQDi_RfgJKEYdJSojpIUh_C2hBfdFr/view?usp=drivesdk
 ```
 আপনার ভিডিও URL দিয়ে বদলে দিন।
 
